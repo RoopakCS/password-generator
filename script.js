@@ -12,8 +12,7 @@ async function generatePassword() {
 }
 
 copybutton.addEventListener("click", function () {
-  navigator.clipboard.writeText(inputField.value).then(
-    alert("Copied to clipboard")
-  )
+  navigator.clipboard
+    .writeText(inputField.value)
+    .then(alert("Copied to clipboard"));
 });
-
