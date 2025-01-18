@@ -77,4 +77,9 @@ input {
     margin-top: 50px;
     font-size: bold;
   }
+  .input-field {
+    width: fit-content;
+    margin: 10px 10px;
+  }
 }
+
